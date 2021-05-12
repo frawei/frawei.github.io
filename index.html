@@ -13,9 +13,12 @@
 
 <h1>The input element</h1>
 
-<form action="/action_page.php">
-  <label for="fthese">These:</label>
+<form action="/action_page.php" onsubmit="textToSpeech()">
+  <label for="fthese">These1:</label>
   <input type="text" id="fthese" name="fthese"><br><br>
+ <label for="txtSearch">These2:</label>
+ <input type="text" id="txtSearch" x-webkit-speech />
+   <input type="submit" value="Submit">
 </form>
 
 <button onclick="playAudio()" type="button">Prüfe deine These</button>
@@ -30,6 +33,12 @@ function playAudio() {
 } 
  
 </script>
+  <script>
+   function textToSpeech() { 
+   var msg = new SpeechSynthesisUtterance();
+msg.text = document.getElementById('fthese').value;
+window.speechSynthesis.speak(msg);
+   </script>
 
 </body>
 </html>
