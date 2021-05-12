@@ -10,8 +10,11 @@
 <audio id="myAudio">
   <source src="https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637" type="audio/mpeg">
 </audio>
+<audio id="myAudio">
+  <source src="https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637" type="audio/mpeg">
+</audio>
 
-<h1>9</h1>
+<h1>10</h1>
 
 <input type="text" id="speak-text" placeholder="Enter text to speak" /><button id="speak-button">Speak</button>
 
@@ -25,7 +28,9 @@
 
 				window.speechSynthesis.speak(utter);
 			 
-			 	var x = document.getElementById("myAudio");
+			 var items = Array("https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637", "https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1637,1642);
+			 var x = items[Math.floor(Math.random() * items.length)];
+			 	//var x = document.getElementById("myAudio");
 				utter.onend = function(event) {
 					x.load();
   					x.play();  
