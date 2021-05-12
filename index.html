@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="-1"><style type="text/css">.lw {
+    font-size: 60px;
+}
+input {
+  width:  500px;
+}
+      </style>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="https://www.gefuehltefakten.de/wp-content/uploads/2020/02/cropped-lizard_1f98e-1-180x180.png">
-  </head>
-  
+</head>
+
 <body>
+    <audio id="myAudio1" <source="" src="https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637" type="audio/mpeg">
+    </audio>
+    <audio id="myAudio2" <source="" src="https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1376,1379" type="audio/mpeg">
+    </audio>
+    <input type="text" id="speak-text" placeholder="Gefühlte Fakten ist der beste Podcast der Welt"><button id="speak-button">Speak</button>
 
-<audio id="myAudio">
-  <source src="https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637" type="audio/mpeg">
-</audio>
-<audio id="myAudio">
-  <source src="https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637" type="audio/mpeg">
-</audio>
 
-<h1>10</h1>
+<script>var srcThese = [
+    "https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1376,1379",
+    "https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1708,1710"
+];
 
-<input type="text" id="speak-text" placeholder="Enter text to speak" /><button id="speak-button">Speak</button>
+var srcJaNein = [
+    "https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637"
+];
 
-<script>
-	document.querySelector("#speak-button").addEventListener('click', function() 
-		{	if(document.querySelector("#speak-text").value.trim() != '') 
-			{	var utter = new SpeechSynthesisUtterance();
-				utter.text = document.querySelector("#speak-text").value;
-				utter.lang = 'de-DE';
-			 	
+document.querySelector("#speak-button").addEventListener('click', function() {
+    if (document.querySelector("#speak-text").value.trim() != '') {
+        var utter = new SpeechSynthesisUtterance();
+        utter.text = document.querySelector("#speak-text").value;
+        utter.lang = 'de-DE';
 
-				window.speechSynthesis.speak(utter);
-			 
-			 var items = Array("https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637", "https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1637,1642);
-			 var x = items[Math.floor(Math.random() * items.length)];
-			 	//var x = document.getElementById("myAudio");
-				utter.onend = function(event) {
-					x.load();
-  					x.play();  
-				}
-	}
-});</script>
+        var playerThese = document.getElementById("myAudio2");
+        var rand = Math.floor(Math.random() * srcThese.length);
+        playerThese.setAttribute("src", srcThese[rand])
+        playerThese.load()
+        var playerJaNein = document.getElementById("myAudio1");
+        var rand = Math.floor(Math.random() * srcJaNein.length);
+        playerJaNein.setAttribute("src", srcJaNein[rand])
+        //playerThese.load();
+        
 
-</body>
-</html>
+        playerThese.play();
+
+        playerThese.onpause = function() {
+          //playerJaNein.load();  
+          window.speechSynthesis.speak(utter);
+
+
+            utter.onend = function(event) {
+
+                playerJaNein.play();
+            }
+
+        }
+    }
+});</script></body>
