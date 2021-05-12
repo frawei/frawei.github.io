@@ -11,7 +11,7 @@
   <source src="https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637" type="audio/mpeg">
 </audio>
 
-<h1>6</h1>
+<h1>7</h1>
 
 	<input type="text" id="speak-text" placeholder="Enter text to speak" /><button id="speak-button">Speak</button>
 
@@ -29,23 +29,14 @@ function playAudio() {
  
 </script>
 <script>
-	var y = document.getElementById("myAudio");
 	document.querySelector("#speak-button").addEventListener('click', function() 
 		{	if(document.querySelector("#speak-text").value.trim() != '') 
 			{	var utter = new SpeechSynthesisUtterance();
 				utter.text = document.querySelector("#speak-text").value;
 				utter.lang = 'de-DE';
+			 	utter.onend = playAudio();
 
-			 	utter.onend = playAudio2() {
-					y.load();
-					y.play();
-				}
-			 
-				window.speechSynthesis.speak(utter);
-			 
-			 	
-
-			 	
+				window.speechSynthesis.speak(utter);		 	
 	}
 });</script>
 
