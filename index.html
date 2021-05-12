@@ -11,7 +11,7 @@
   <source src="https://cdn.podigee.com/uploads/u28710/749c25f6-e26f-4b60-81b4-1bf5646e7fe0.mp3#t=1634,1637" type="audio/mpeg">
 </audio>
 
-<h1>The input element</h1>
+<h1>The input element1</h1>
 
 <form>
   <label for="fthese">These1:</label>
@@ -35,7 +35,8 @@ function playAudio() {
   <script>
    function textToSpeech() { 
    var msg = new SpeechSynthesisUtterance();
-msg.text = document.getElementById('fthese').value;
+    var inputVal = document.getElementById("fthese").value;
+msg.text = inputVal;
 window.speechSynthesis.speak(msg);
    </script>
 
