@@ -14,13 +14,14 @@
 <p>Click the buttons to play or pause the audio.</p>
 
 <button onclick="playAudio()" type="button">Play Audio</button>
-<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+<button onclick="pauseAudio()" type="button">1</button> 
  
  <script>
 
-
+ var x = document.getElementById("myAudio");
 function playAudio() { 
- var x = document.getElementById("myAudio"); 
+ 
+ x.load();
   x.play(); 
 } 
  
