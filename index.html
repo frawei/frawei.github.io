@@ -13,11 +13,8 @@
 
 <h1>9</h1>
 
-	<input type="text" id="speak-text" placeholder="Enter text to speak" /><button id="speak-button">Speak</button>
+<input type="text" id="speak-text" placeholder="Enter text to speak" /><button id="speak-button">Speak</button>
 
- <button onclick="textToSpeech()" type="button">Meine these</button>
-<button onclick="playAudio()" type="button">Prüfe deine These</button>
- 
 <script>
 	document.querySelector("#speak-button").addEventListener('click', function() 
 		{	if(document.querySelector("#speak-text").value.trim() != '') 
