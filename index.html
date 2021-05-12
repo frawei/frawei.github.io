@@ -13,14 +13,13 @@
 
 <h1>The input element</h1>
 
-<form onsubmit="textToSpeech()">
+<form>
   <label for="fthese">These1:</label>
   <input type="text" id="fthese" name="fthese"><br><br>
- <label for="txtSearch">These3:</label>
- <input type="text" id="txtSearch" x-webkit-speech />
-   <input type="submit" value="Submit">
+
 </form>
 
+ <button onclick="textToSpeech()" type="button">Meine these</button>
 <button onclick="playAudio()" type="button">Prüfe deine These</button>
  
  <script>
