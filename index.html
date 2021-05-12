@@ -13,11 +13,7 @@
 
 <h1>2</h1>
 
-<form>
-  <label for="fthese">These1:</label>
-  <input type="text" id="fthese" name="fthese"><br><br>
-
-</form>
+	<input type="text" id="speak-text" placeholder="Enter text to speak" /><button id="speak-button">Speak</button>
 
  <button onclick="textToSpeech()" type="button">Meine these</button>
 <button onclick="playAudio()" type="button">Prüfe deine These</button>
@@ -32,13 +28,15 @@ function playAudio() {
 } 
  
 </script>
-  <script>
-   function textToSpeech() { 
-   var msg = new SpeechSynthesisUtterance();
-    var inputVal = document.getElementById("fthese").value;
-msg.text = "test";
-window.speechSynthesis.speak(msg);
-   </script>
+<script>document.querySelector("#speak-button").addEventListener('click', function() {
+	if(document.querySelector("#speak-text").value.trim() != '') {
+		var utter = new SpeechSynthesisUtterance();
+		utter.text = document.querySelector("#speak-text").value;
+		utter.lang = 'de-DE';
+
+		window.speechSynthesis.speak(utter);
+	}
+});</script>
 
 </body>
 </html>
