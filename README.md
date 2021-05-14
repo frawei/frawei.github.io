@@ -1,3 +1,5 @@
 # sodnor.github.io
-🚡 just experimenting
-[Gefühlte Fakten Thesen Generator](../fakten)
+## projects:
+🦎  [Gefühlte Fakten: JA oder NEIN](../fakten)
+## contact:
+🐤  [@ja_franz](https://twitter.com/ja_franz "Twitter: @ja_franz")
