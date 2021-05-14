@@ -1,0 +1,95 @@
+.wrapper {
+    text-align: center;
+}
+
+.emoji-button {
+    background-color: Transparent;
+    color: #222;
+    width: auto;
+}
+
+button {
+    background-color: #222;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    width: 100%;
+    height: 50px;
+    white-space: pre;
+}
+
+p {
+    text-align: center;
+}
+
+
+body {
+    background-color: #eeeeee;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+input {
+    text-align: center;
+    overflow: visible;
+    color: #000000;
+    background: #fff;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 1px;
+    border-radius: 3px;
+    display: block;
+    padding: 0.7em;
+    width: 100%;
+    height: 50px;
+
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #696969;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #696969;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #696969;
+}
+
+h4 {
+    color: #f32a16;
+    font-size: 220%;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+h5 {
+    color: #000000;
+    font-size: 200%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+h4 a {
+    color: #f32a16;
+}
