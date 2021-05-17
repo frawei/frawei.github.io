@@ -2,56 +2,47 @@ var speakButton = document.querySelector("#speak-button");
 var speakText = document.querySelector("#speak-text");
 var playerThese = document.querySelector("#audio-these");
 var playerJaNein = document.querySelector("#audio-janein");
-var emojiFooter = document.querySelector("#emoji-footer");
+var emojiFooter = document.querySelector("#emoji-btn");
 var currentThese = "Gefühlte Fakten ist der beste Podcast";
 var utter = new SpeechSynthesisUtterance();
-
 utter.lang = 'de-DE';
 
+function rndStr(myArray) {
+    var RandomValue = Math.floor(Math.random() * myArray.length);
+    return myArray[RandomValue];
+}
+
+function emojiShuffle() {
+    emojiFooter.innerHTML = rndStr(emojis);
+}
+
 window.onload = function() {
-    var randomPlaceholder = Math.floor(Math.random() * phThese.length);
-    speakText.setAttribute("placeholder", phThese[randomPlaceholder])
-    var randomEmoji1 = Math.floor(Math.random() * emojis.length);
-    var randomEmoji2 = Math.floor(Math.random() * emojis.length);
-    var randomEmoji3 = Math.floor(Math.random() * emojis.length);
-    var randomEmoji4 = Math.floor(Math.random() * emojis.length);
-    var randomEmoji5 = Math.floor(Math.random() * emojis.length);
-    emojiFooter.innerHTML = emojis[randomEmoji1] + emojis[randomEmoji2] + emojis[randomEmoji3] + emojis[randomEmoji4] + emojis[randomEmoji5]
+    speakText.setAttribute("placeholder", rndStr(phThese))
 };
 
 emojiFooter.addEventListener('click', function() {
-    var randomEmoji1 = Math.floor(Math.random() * emojis.length);
-    var randomEmoji2 = Math.floor(Math.random() * emojis.length);
-    var randomEmoji3 = Math.floor(Math.random() * emojis.length);
-    var randomEmoji4 = Math.floor(Math.random() * emojis.length);
-    var randomEmoji5 = Math.floor(Math.random() * emojis.length);
-    emojiFooter.innerHTML = emojis[randomEmoji1] + emojis[randomEmoji2] + emojis[randomEmoji3] + emojis[randomEmoji4] + emojis[randomEmoji5]
+    emojiShuffle();
 })
 
 speakButton.addEventListener('click', function() {
     if (speakText.value.trim() != '') {
         currentThese = speakText.value;
-    } else {
+    } else { //use placeholder
         currentThese = speakText.getAttribute("placeholder");
     }
-    //get random values from arrays
-    var randomButtonText = Math.floor(Math.random() * txtLoad.length);
-    var randomJaNein = Math.floor(Math.random() * srcJaNein.length);
-    var randomThese = Math.floor(Math.random() * srcThese.length);
     //Button Settings
     speakButton.disabled = true;
     var intervalId = window.setInterval(function() {
-        var randomEmoji1 = Math.floor(Math.random() * emojis.length);
-        speakButton.textContent = txtLoad[randomButtonText] + '\n \n' + emojis[randomEmoji1] + emojis[randomEmoji1] + emojis[randomEmoji1] + emojis[randomEmoji1] + emojis[randomEmoji1]
+        emojiShuffle();
     }, 400);
     //set These audio source
-    playerThese.setAttribute("src", srcThese[randomThese]);
+    playerThese.setAttribute("src", rndStr(srcThese));
     //set Ja Nein audio source
-    playerJaNein.setAttribute("src", srcJaNein[randomJaNein]);
+    playerJaNein.setAttribute("src", rndStr(srcJaNein));
     //when JaNein is loaded, start function
     playerJaNein.oncanplay = function() {
         clearInterval(intervalId);
-        speakButton.textContent = "These prüfen";
+        speakButton.textContent = "🔊";
         //1 Thesen Einleitung
         playerThese.play();
         //when These is said, continue
@@ -62,10 +53,8 @@ speakButton.addEventListener('click', function() {
             utter.onend = function(event) {
                 playerJaNein.play();
                 playerJaNein.onpause = function() {
-                    speakButton.textContent = "These prüfen";
                     speakButton.disabled = false;
-                    var randomPlaceholder = Math.floor(Math.random() * phThese.length);
-                    speakText.setAttribute("placeholder", phThese[randomPlaceholder])
+                    speakText.setAttribute("placeholder", rndStr(phThese));
                 }
 
             }
