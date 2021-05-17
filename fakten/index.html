@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="https://www.gefuehltefakten.de/wp-content/uploads/2020/02/cropped-lizard_1f98e-1-180x180.png">
 
-<link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 
 <body>
@@ -13,18 +12,28 @@
     </audio>
     <audio id="audio-janein" <source src="" type="audio/mpeg" preload="auto" autobuffer>
     </audio>
-    <h4>Gefühlte Fakten</h4>
-    <h5>Ja oder Nein</h5>
-    <p>Die beliebte Rubrik aus dem Podcast hier interaktiv <br>Gib deine eigene These ein, und lass sie von Christian und Tarkan prüfen:</p>
-    <input title="Gib hier diene eigene These ein" type="text" id="speak-text" placeholder="Gefühlte Fakten ist der beste Podcast" />
+    <div class="myDIV">
+        <div class="myInnerDIV">
+            <h1>GEFÜHLTE FAKTEN</h1>
+            <h2>ja oder nein?</h2>
+            <div class="inner-form">
+                <div class="input-field first-wrap">
+                    <div class="svg-wrapper">
+                        <button id="emoji-btn" class="emoji-btn">🦆</button>
+                    </div>
+                    <input title="Gib hier diene eigene These ein" type="text" id="speak-text" placeholder="Gefühlte Fakten ist der beste Podcast" />
+                </div>
+                <div class="input-field second-wrap">
+                    <button id="speak-button" class="btn-search" title="Lass deine These von den Experten prüfen">🔊</button>
+                </div>
+            </div>
+            <span class="info">Gib deine eigene These ein, und lass sie von Christian und Tarkan prüfen.</span><br /><br /><span class="info2">(Das hier ist ein Fan-Projekt. Zum beliebten Podcast geht's hier lang: <a href="https://podcast-ufo.fail/">gefuehltefakten.de</a>)</span>
 
-    <button id="speak-button" title="Lass deine These von den Experten prüfen">
-        These prüfen
-    </button>
-    <p></p>
-    <div class="wrapper"><button id="emoji-footer" class="emoji-button" title="Ich will mehr Emojis!!!!!"></button></div>
+        </div>
+        <span class="myreadme"> <a href="readme.md">readme</a></span>
+    </div>
+    <!-- based on a template by Colorlib (https://colorlib.com) -->
 
-<script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
