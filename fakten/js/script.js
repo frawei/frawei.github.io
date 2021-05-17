@@ -2,7 +2,7 @@ var speakButton = document.querySelector("#speak-button");
 var speakText = document.querySelector("#speak-text");
 var playerThese = document.querySelector("#audio-these");
 var playerJaNein = document.querySelector("#audio-janein");
-var emojiFooter = document.querySelector("#emoji-btn");
+// var emojiFooter = document.querySelector("#emoji-btn");
 var currentThese = "Gefühlte Fakten ist der beste Podcast";
 var utter = new SpeechSynthesisUtterance();
 utter.lang = 'de-DE';
@@ -12,17 +12,17 @@ function rndStr(myArray) {
     return myArray[RandomValue];
 }
 
-function emojiShuffle() {
+/* function emojiShuffle() {
     emojiFooter.innerHTML = rndStr(emojis);
-}
+} */
 
 window.onload = function() {
     speakText.setAttribute("placeholder", rndStr(phThese))
 };
 
-emojiFooter.addEventListener('click', function() {
+/* emojiFooter.addEventListener('click', function() {
     emojiShuffle();
-})
+}) */
 
 speakButton.addEventListener('click', function() {
     if (speakText.value.trim() != '') {
@@ -32,9 +32,9 @@ speakButton.addEventListener('click', function() {
     }
     //Button Settings
     speakButton.disabled = true;
-    var intervalId = window.setInterval(function() {
+    /* var intervalId = window.setInterval(function() {
         emojiShuffle();
-    }, 400);
+    }, 400); */
     //set These audio source
     playerThese.setAttribute("src", rndStr(srcThese));
     //set Ja Nein audio source
