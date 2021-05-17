@@ -16,7 +16,7 @@
 .myDIV .myInnerDIV {
     width: 100%;
     max-width: 790px;
-    padding-top: 8vh
+    padding-top: 4vh
 }
 
 .myreadme {
@@ -30,7 +30,7 @@
 }
 
 .myDIV .myInnerDIV .emoji-btn {
-    font-size: 28px;
+    font-size: 200%;
     background-color: Transparent;
     border: 0;
     width: auto;
@@ -128,14 +128,14 @@ h2 {
 }
 
 .myDIV .myInnerDIV .inner-form .input-field.second-wrap {
-    min-width: 100px
+    min-width: 80px
 }
 
 .myDIV .myInnerDIV .inner-form .input-field.second-wrap .btn-search {
     height: 100%;
     width: 100%;
     white-space: nowrap;
-    font-size: 28px;
+    font-size: 200%;
     color: #fff;
     border: 0;
     cursor: pointer;
