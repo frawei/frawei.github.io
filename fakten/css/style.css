@@ -108,7 +108,8 @@ h2 {
 
 .myDIV .myInnerDIV .inner-form .input-field.first-wrap input {
     -ms-flex-positive: 1;
-    flex-grow: 1
+    flex-grow: 1;
+    padding: 10px;
 }
 
 .myDIV .myInnerDIV .inner-form .input-field.first-wrap .svg-wrapper {
