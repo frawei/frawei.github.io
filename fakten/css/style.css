@@ -1,95 +1,172 @@
-.wrapper {
-    text-align: center;
+.myDIV {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    background: url("source/photos/lizard.png");
+    background-color: #000;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15px
 }
 
-.emoji-button {
+.myDIV .myInnerDIV {
+    width: 100%;
+    max-width: 790px;
+    padding-top: 8vh
+}
+
+.myreadme {
+    position: fixed;
+    bottom: 5px;
+    left: 15px;
+}
+
+.myreadme a {
+    color: #696969;
+}
+
+.myDIV .myInnerDIV .emoji-btn {
+    font-size: 28px;
     background-color: Transparent;
-    color: #222;
+    border: 0;
     width: auto;
 }
 
-button {
-    background-color: #222;
+.myDIV .myInnerDIV .inner-form {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0 8px 20px 0 rgba(220, 220, 220, .5);
+    border-radius: 34px;
+    overflow: hidden;
+    margin-bottom: 30px
+}
+
+h1 {
+    text-align: center;
+    color: #fff
+}
+
+h2 {
+    text-align: center;
+    color: #fff
+}
+
+.myDIV .myInnerDIV .inner-form .input-field {
+    height: 68px
+}
+
+.myDIV .myInnerDIV .inner-form .input-field input {
+    height: 100%;
+    background: 0 0;
     border: 0;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-size: 0.875rem;
-    font-weight: 800;
-    line-height: 1;
-    text-shadow: none;
-    -webkit-transition: background 0.2s;
-    transition: background 0.2s;
-    width: 100%;
-    height: 50px;
-    white-space: pre;
-}
-
-p {
-    text-align: center;
-}
-
-
-body {
-    background-color: #eeeeee;
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
-}
-
-
-input {
-    text-align: center;
-    overflow: visible;
-    color: #000000;
-    background: #fff;
-    border: 1px solid #bbb;
-    -webkit-border-radius: 1px;
-    border-radius: 3px;
     display: block;
-    padding: 0.7em;
     width: 100%;
-    height: 50px;
-
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000
 }
 
-::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
+.myDIV .myInnerDIV .inner-form .input-field input.placeholder {
+    color: #222;
+    font-size: 16px
+}
+
+.myDIV .myInnerDIV .inner-form .input-field input:-moz-placeholder {
+    color: #222;
+    font-size: 16px
+}
+
+.myDIV .myInnerDIV .inner-form .input-field input::-webkit-input-placeholder {
+    color: #222;
+    font-size: 16px
+}
+
+.myDIV .myInnerDIV .inner-form .input-field input:hover,
+.myDIV .myInnerDIV .inner-form .input-field input:focus {
+    box-shadow: none;
+    outline: 0
+}
+
+.myDIV .myInnerDIV .inner-form .input-field.first-wrap {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fff
+}
+
+.myDIV .myInnerDIV .inner-form .input-field.first-wrap input {
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.myDIV .myInnerDIV .inner-form .input-field.first-wrap .svg-wrapper {
+    min-width: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.myDIV .myInnerDIV .inner-form .input-field.first-wrap svg {
+    width: 36px;
+    height: 36px;
+    fill: #222
+}
+
+.myDIV .myInnerDIV .inner-form .input-field.second-wrap {
+    min-width: 100px
+}
+
+.myDIV .myInnerDIV .inner-form .input-field.second-wrap .btn-search {
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 28px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    background: #f8421a;
+    transition: all .2s ease-out, color .2s ease-out;
+    font-weight: 300;
+}
+
+.myDIV .myInnerDIV .inner-form .input-field.second-wrap .btn-search:hover {
+    background: #d22b06
+}
+
+.myDIV .myInnerDIV .inner-form .input-field.second-wrap .btn-search:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+.myDIV .myInnerDIV .info {
+    font-size: 15px;
+    color: #ccc;
+    padding-left: 26px
+}
+
+.myDIV .myInnerDIV .info2 {
+    font-size: 12px;
+    color: #ccc;
+    padding-left: 26px
+}
+
+.myDIV .myInnerDIV .info2 a {
     color: #696969;
-    opacity: 1;
-    /* Firefox */
-}
-
-:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #696969;
-}
-
-::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: #696969;
-}
-
-h4 {
-    color: #f32a16;
-    font-size: 220%;
-    margin-bottom: 0px;
-    text-align: center;
-    font-weight: 800;
-
-}
-
-h5 {
-    color: #000000;
-    font-size: 200%;
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: 800;
-}
-
-h4 a {
-    color: #f32a16;
 }
