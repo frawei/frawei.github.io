@@ -1,5 +1,5 @@
 # sodnor.github.io  
-## projects:  
+## project:  
 ### 🦎  [GEFÜHLTE FAKTEN: ja oder nein](../fakten)  
 * audio clips: [Gefühlte Fakten - Podcast](https://gefuehltefakten.de)  
 * css template: [colorlib.com](https://colorlib.com)  
