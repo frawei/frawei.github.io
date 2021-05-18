@@ -2,7 +2,7 @@
 ## project:  
 ### 🦎  [GEFÜHLTE FAKTEN: ja oder nein](../fakten)  
 * audio clips: [Gefühlte Fakten! Der Podcast mit Christian Huber und Tarkan Bagci](https://gefuehltefakten.de)  
-* css template: [colorlib.com](https://colorlib.com)  
+* css template: [colorlib.com](https://colorlib.com)  CC BY 3.0
 * image source: [Pierre Bamin - unsplash.com](https://unsplash.com/photos/4ePxJT_ffKw)  
 * text to speech: [MDN Speech Synthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance)
 
