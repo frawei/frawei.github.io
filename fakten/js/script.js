@@ -148,7 +148,7 @@ var phThese = [
     "Die Klopapierrolle muss nach vorne gedreht sein",
     "Das Handy erst ab einer gewissen Prozentzahl aufladen",
     "Nach dem Nießen sich Entschuldigen, statt vom Anderen Gesundheit gewünscht bekommen",
-    "Gäste bitten, beim Betreten die Wohnung sich die Schuhe auszuziehen",
+    "Gäste bitten, beim Betreten der Wohnung sich die Schuhe auszuziehen",
     "Ein Schreibblock muss kariert sein",
     "Die Finger- und Fußnägel mit einem Nagelclip schneiden",
     "Bei Netflix-Serien das Intro überspringen",
