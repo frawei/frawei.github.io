@@ -169,7 +169,16 @@ var phThese = [
     "Etwas essen, obwohl man davon Pickel bekommt",
     "Ein neues T-Shirt erst waschen und dann anziehen",
     "Wenn man bei der Einladung zu einem Treffen schon weiß, dass mein keine Lust hat, direkt absagen",
-    "Brezen mit Salz"
+    "Brezen mit Salz",
+    "Wenn man nachts pinkeln muss, aufstehen",
+    "Am Wochenende in den Briefkasten schauen",
+    "Trash TV",
+    "Füße föhnen",
+    "Überraschungen",
+    "Am eigenen Geburtstag bei verpassten Anrufen zurückrufen",
+    "Einen Film wegen eines Schauspielers oder eine Schauspielerin nicht gucken",
+    "Fingernägel feilen",
+    "Wenn einem in der Öffentlichkeit etwas runterfällt, Hoppla sagen"
 ];
 
 var srcJaNein = [
