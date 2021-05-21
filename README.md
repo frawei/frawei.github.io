@@ -1,4 +1,4 @@
-# 🚲frawei.github.io  
+# frawei.github.io  
 ## project:  
 ### 🦎  [GEFÜHLTE FAKTEN: ja oder nein](../fakten)  
 * audio clips: [Gefühlte Fakten! Der Podcast mit Christian Huber und Tarkan Bagci](https://gefuehltefakten.de)  
