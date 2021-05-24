@@ -187,7 +187,13 @@ var phThese = [
     "Knopfleiste Bettzeug",
     "Eine Uhr trägt man nur links",
     "Eine fremde Nummer, die einen angerufen hat, zurückrufen",
-    "Wendejacken sind scheiße"
+    "Wendejacken sind scheiße",
+    "Beim Touchpad ist nach unten Scrollen nach unten Scrollen",
+    "Am besten kann man auf dem Rücken einschlafen",
+    "Toilettenpapier knüllen",
+    "Es ist OK, ein Shirt einer Band zu tragen, auch wenn man die Band nicht kennt",
+    "Vor einem Film guckt man den Trailer",
+    "Westen"
 ];
 
 var srcJaNein = [
