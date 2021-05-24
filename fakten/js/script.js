@@ -178,7 +178,16 @@ var phThese = [
     "Am eigenen Geburtstag bei verpassten Anrufen zurückrufen",
     "Einen Film wegen eines Schauspielers oder eine Schauspielerin nicht gucken",
     "Fingernägel feilen",
-    "Wenn einem in der Öffentlichkeit etwas runterfällt, Hoppla sagen"
+    "Wenn einem in der Öffentlichkeit etwas runterfällt, Hoppla sagen",
+    "Aus WhatsApp Gruppen austreten",
+    "Socken ausschließlich mit links-rechts Beschriftung kaufen",
+    "Wenn im Haus der Wohnung etwas kaputt ist, direkt den Vermieter kontaktieren",
+    "Direkt das erste Deo aus dem Fach im Supermarkt nehmen",
+    "Was Geiles zu essen ist besser, als was Geiles zu trinken",
+    "Knopfleiste Bettzeug",
+    "Eine Uhr trägt man nur links",
+    "Eine fremde Nummer, die einen angerufen hat, zurückrufen",
+    "Wendejacken sind scheiße"
 ];
 
 var srcJaNein = [
