@@ -178,7 +178,7 @@ var phThese = [
     "Tatort",
     "Mit der Exfreundin von einem guten Freund befreundet bleiben.",
     "Nen Möbelpacker bei sich kacken lassen",
-    "Bei einem Spiel der deutschen Nationalmannschaft eine Deuschlandflagge haben",
+    "Bei einem Spiel der deutschen Nationalmannschaft eine Deutschlandflagge haben",
     "Filme in 3D sind besser als in 2D",
     "Woanders als zuhause auf Klo gehen. Und zwar, um ein großes Geschäft zu machen.",
     "Clowns sind lustig",
