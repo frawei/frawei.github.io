@@ -193,7 +193,13 @@ var phThese = [
     "Toilettenpapier knüllen",
     "Es ist OK, ein Shirt einer Band zu tragen, auch wenn man die Band nicht kennt",
     "Vor einem Film guckt man den Trailer",
-    "Westen"
+    "Westen",
+    "Bei Schorle kommt erst der Saft und dann das Sprudelwasser",
+    "Es ist okay während eines Gesprächs aus Handy zu gucken",
+    "Die Person, die auszieht, muss sich um den Nachmieter kümmern",
+    "Die Musicalfolge bei einer Serie ist immer kacke",
+    "Radlerhosen",
+    "Erst die Milch in die Schüssel, und dann die Cornflakes"
 ];
 
 var srcJaNein = [
