@@ -1,333 +1,41 @@
-/* based on a template by colorlib.com CC BY 3.0 */
-
-.myDIV {
-    min-height: 100vh;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
-    background: url("../source/photos/besen_m.png");
-    background-color: #000;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 15px
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
-.myDIV .myInnerDIV {
-    width: 100%;
-    max-width: 790px;
-    padding-top: 4vh
+.jumbotron {
+  font-family: 'Montserrat', sans-serif;
+  padding: 75px 0;
+  background: url(https://images.unsplash.com/photo-1585933646706-7b629be871aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80) center center;
+  background-size: 100%;
+  text-align: center;
+  color: #fff;
+  position: relative;
 }
 
-.myreadme {
-    position: fixed;
-    bottom: 5px;
-    left: 15px;
+.jumbotron h1 {
+  font-size: 50px;
+  margin-bottom: 0;
 }
 
-.myreadme a {
-    color: #696969;
+.jumbotron p {
+  font-family: serif;
+  font-size: 30px;
+  font-style: italic;
+  margin: 0 0 30px;
 }
 
-.myDIV .myInnerDIV .emoji-btn {
-    font-size: 200%;
-    background-color: Transparent;
-    border: 0;
-    width: auto;
+button {
+  background-color: Transparent;
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-.myDIV .myInnerDIV .inner-form {
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-align: center;
-    align-items: center;
-    box-shadow: 0 8px 20px 0 rgba(220, 220, 220, .5);
-    border-radius: 34px;
-    overflow: hidden;
-    margin-bottom: 30px
-}
-
-h1 {
-    text-align: center;
-    color: #fff
-}
-
-h2 {
-    text-align: center;
-    color: #fff
-}
-
-.myDIV .myInnerDIV .inner-form .input-field {
-    height: 68px
-}
-
-.myDIV .myInnerDIV .inner-form .input-field input {
-    height: 100%;
-    background: 0 0;
-    border: 0;
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #000
-}
-
-.myDIV .myInnerDIV .inner-form .input-field input.placeholder {
-    color: #222;
-    font-size: 16px
-}
-
-.myDIV .myInnerDIV .inner-form .input-field input:-moz-placeholder {
-    color: #222;
-    font-size: 16px
-}
-
-.myDIV .myInnerDIV .inner-form .input-field input::-webkit-input-placeholder {
-    color: #6b6b6b;
-    font-size: 16px;
-    font-style: italic
-}
-
-.myDIV .myInnerDIV .inner-form .input-field input:hover,
-.myDIV .myInnerDIV .inner-form .input-field input:focus {
-    box-shadow: none;
-    outline: 0
-}
-
-.myDIV .myInnerDIV .inner-form .input-field.first-wrap {
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    background: #fff
-}
-
-.myDIV .myInnerDIV .inner-form .input-field.first-wrap input {
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    padding-left: 30px;
-}
-
-.myDIV .myInnerDIV .inner-form .input-field.first-wrap .svg-wrapper {
-    min-width: 80px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.myDIV .myInnerDIV .inner-form .input-field.first-wrap svg {
-    width: 36px;
-    height: 36px;
-    fill: #222
-}
-
-.myDIV .myInnerDIV .inner-form .input-field.second-wrap {
-    min-width: 80px
-}
-
-.myDIV .myInnerDIV .inner-form .input-field.second-wrap .btn-search {
-    height: 100%;
-    width: 100%;
-    white-space: nowrap;
-    font-size: 200%;
-    color: #fff;
-    border: 0;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    background: #f8421a;
-    transition: all .2s ease-out, color .2s ease-out;
-    font-weight: 300;
-}
-
-.myDIV .myInnerDIV .inner-form .input-field.second-wrap .btn-search:hover {
-    background: #d22b06
-}
-
-.myDIV .myInnerDIV .inner-form .input-field.second-wrap .btn-search:focus {
-    outline: 0;
-    box-shadow: none
-}
-
-.myDIV .myInnerDIV .info {
-    font-size: 15px;
-    color: #ccc;
-    padding-left: 26px
-}
-
-.myDIV .myInnerDIV .info2 {
-    font-size: 12px;
-    color: #ccc;
-    padding-left: 26px
-}
-
-.myDIV .myInnerDIV .info2 a {
-    color: #696969;
-}
-
-html {
-    line-height: 1.15;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-}
-
-body {
-    margin: 0
-}
-
-article,
-aside,
-footer,
-header,
-nav,
-section {
-    display: block
-}
-
-figcaption,
-figure,
-main {
-    display: block
-}
-
-figure {
-    margin: 1em 40px
-}
-
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible
-}
-
-pre {
-    font-family: monospace, monospace;
-    font-size: 1em
-}
-
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects
-}
-
-abbr[title] {
-    border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted
-}
-
-b,
-strong {
-    font-weight: inherit
-}
-
-b,
-strong {
-    font-weight: bolder
-}
-
-code,
-kbd,
-samp {
-    font-family: monospace, monospace;
-    font-size: 1em
-}
-
-dfn {
-    font-style: italic
-}
-
-mark {
-    background-color: #ff0;
-    color: #000
-}
-
-small {
-    font-size: 80%
-}
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline
-}
-
-sub {
-    bottom: -.25em
-}
-
-sup {
-    top: -.5em
-}
-
-audio,
-video {
-    display: inline-block
-}
-
-audio:not([controls]) {
-    display: none;
-    height: 0
-}
-
-img {
-    border-style: none
-}
-
-svg:not(:root) {
-    overflow: hidden
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-    font-family: sans-serif;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0
-}
-
-button,
-input {
-    overflow: visible
-}
-
-button,
-select {
-    text-transform: none
-}
-
-button,
-html [type=button],
-[type=reset],
-[type=submit] {
-    -webkit-appearance: button
-}
-
-button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
-    outline: 1px dotted ButtonText
-}
-
-html {
-    height: 100%
+button:hover {
+  background: #fff;
+  color: #000;
 }
