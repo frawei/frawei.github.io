@@ -10,12 +10,12 @@ function rndStr(myArray) {
 
 window.onload = function() {
     subjectText.setAttribute("placeholder", rndStr(phSubject));
-    theseText.setAttribute("placeholder", rndStr(phThese))
+    theseText.setAttribute("placeholder", rndStr(phThese));
 };
 
 hottakeButton.addEventListener('click', function() {
     subjectText.setAttribute("placeholder", rndStr(phSubject));
-    theseText.setAttribute("placeholder", rndStr(phThese))
+    theseText.setAttribute("placeholder", rndStr(phThese));
 });
 
 var txtLoad = [
