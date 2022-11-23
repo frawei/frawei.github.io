@@ -13,37 +13,9 @@ window.onload = function() {
     theseText.setAttribute("placeholder", rndStr(phThese))
 };
 
-speakButton.addEventListener('click', function() {
-    if (speakText.value.trim() != '') {
-        currentThese = speakText.value;
-    } else { //use placeholder
-        currentThese = speakText.getAttribute("placeholder");
-    }
-    //Button Settings
-    speakButton.disabled = true;
-    //set These audio source
-    playerThese.setAttribute("src", rndStr(srcThese));
-    //set Ja Nein audio source
-    playerJaNein.setAttribute("src", rndStr(srcJaNein));
-    //when JaNein is loaded, start function
-    playerJaNein.oncanplay = function() {
-        //1 Thesen Einleitung
-        playerThese.play();
-        //when These is said, continue
-        playerThese.onpause = function() {
-            //
-            utter.text = currentThese;
-            window.speechSynthesis.speak(utter);
-            utter.onend = function(event) {
-                playerJaNein.play();
-                playerJaNein.onpause = function() {
-                    speakButton.disabled = false;
-                    speakText.setAttribute("placeholder", rndStr(phThese));
-                }
-
-            }
-        }
-    }
+hottakeButton.addEventListener('click', function() {
+    subjectText.setAttribute("placeholder", rndStr(phSubject));
+    theseText.setAttribute("placeholder", rndStr(phThese))
 });
 
 var txtLoad = [
