@@ -134,7 +134,8 @@ var phThese = [
 	"👍👍👍",
 	"hat beim Giro keine Chance",
 	"gewinnt noch zwei Monumente",
-	"weiß ich nicht..."
+	"weiß ich nicht...",
+	"Sprinter naja"
 
 ];
 
