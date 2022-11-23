@@ -60,7 +60,7 @@ var phSubject = [
     "Stan Dewulf",						
     "Felix Gall",					
     "Pierre Gautherat",					
-    "GODON Dorian Godon",
+    "Dorian Godon",
     "Jaakko Hänninen",						
     "Paul Lapeira",						
     "Lawrence Naesen",						
@@ -131,7 +131,9 @@ var phThese = [
 	"dem fehlt einfach der Punch",
 	"ist mehr so der punchy Typ",
 	"ist ein absoluter Sexmann",
-	"👍👍👍"
+	"👍👍👍",
+	"hat beim Giro keine Chance",
+	"gewinnt noch zwei Monumente"
 
 ];
 
