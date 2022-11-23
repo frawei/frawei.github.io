@@ -61,7 +61,9 @@ var phThese = [
     "kann nicht abfahren",					
     "ist mittlerweile viel zu alt",					
     "ist underrated",					
-    "... noch nie gehört"
+    "... noch nie gehört",
+    "👎👎👎",
+    "ist unglaublich unsympathisch"
 ];
 
 var emojis = [
