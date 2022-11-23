@@ -8,6 +8,9 @@
 
 ### 🚲  [FULL KIT WANKERS: Bibianis Bullshit Bingo](../bbb) 
 * image source: [Neal E. Johnson - unsplash.com](https://unsplash.com/photos/V0cSTljC92k)
+* css template: [colorlib.com](https://colorlib.com) [<img src="https://i.creativecommons.org/l/by/3.0/de/80x15.png">](http://creativecommons.org/licenses/by/3.0/de/ "Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz")
+* hot takes: [Elia Bibiani](https://twitter.com/EliaBibiani)
+* Podcast: [Full-Kit Wankers - Ein Radsport Podcast](https://linktr.ee/fullkitwankers)
   
 
 ## contact:  
