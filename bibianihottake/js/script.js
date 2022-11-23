@@ -3,31 +3,58 @@ var subjectText = document.querySelector("#subject-text");
 var theseText = document.querySelector("#these-text");
 var currentSubject = "FKW ist der beste Podcast";
 
-function rndStr(myArray) {
-    var RandomValue = Math.floor(Math.random() * myArray.length);
-    return myArray[RandomValue];
-}
-
 window.onload = function() {
-    subjectText.setAttribute("placeholder", rndStr(phSubject));
-    theseText.setAttribute("placeholder", rndStr(phThese));
+    numberRandom = generaRandom(phSubject.length);
+    subjectText.innerHTML = phSubject[numberRandom ];
+    numberRandom = generaRandom(phThese.length);
+    theseText.innerHTML = phThese[numberRandom ];
 };
 
-hottakeButton.addEventListener('click', function() {
-    subjectText.setAttribute("placeholder", rndStr(phSubject));
-    theseText.setAttribute("placeholder", rndStr(phThese));
-});
+hottakeButton.addEventListener('click', game);
 
-var txtLoad = [
-    "Geduld bitte, Bibiani ist nicht mehr der jüngste.",
-    "einen Moment, Bibiani fährt noch 100 km, nicht mehr und nicht weniger"
-];
+function game(){
+  const attempts = numberAttempts(3,12);
+  let t1 = 0, t2 = 0;
+  
+  let slot1 = setInterval(function(){
+    numberRandom = generaRandom(phSubject.length);
+    subjectText.innerHTML = phSubject[numberRandom ];
+    console.log(phSubject[numberRandom ]);
+    t1++;
+    if (t1 == attempts) {
+      clearInterval(slot1);
+      return null;
+    }
+  }, 100);
+  
+  let slot2 = setInterval(function(){
+    t2++;
+    if (t2 == attempts) {
+      clearInterval(slot2);
+      return null;
+    }
+    numberRandom = generaRandom(phThese.length);
+    theseText.innerHTML = phThese[numberRandom ];
+    console.log(phThese[numberRandom ]);
+  }, 100);
+  
+   /* subjectText.setAttribute("placeholder", rndStr(phSubject));
+    theseText.setAttribute("placeholder", rndStr(phThese));*/
+}
+
+function generaRandom(max){
+	return Math.floor((Math.random() *  max));
+}
+
+function numberAttempts(min, max){
+	return Math.floor((Math.random() * (max-min + 1)) + min);
+}
 
 var phSubject = [
     "Pizza Hawaii",
-    "BAUDIN Alex",					
-    "BERTHET Clement",					
-    "BOUCHARD Geoffrey",					
+    "Alex Baudin",					
+    "Clement Berthet",					
+    "Geoffrey Bouchard",					
     "CHÉREL Mikaël",				
     "COSNEFROY Benoît",
     "DEWULF Stan",						
@@ -59,7 +86,7 @@ var phSubject = [
 var phThese = [
     "ist komplet overrated",
     "kann nicht abfahren",					
-    "ist mittlerweile viel zu alt",					
+    "ist doch schon viel zu alt",					
     "ist underrated",					
     "... noch nie gehört",
     "👎👎👎",
