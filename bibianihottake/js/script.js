@@ -133,7 +133,8 @@ var phThese = [
 	"ist ein absoluter Sexmann",
 	"👍👍👍",
 	"hat beim Giro keine Chance",
-	"gewinnt noch zwei Monumente"
+	"gewinnt noch zwei Monumente",
+	"weiß ich nicht..."
 
 ];
 
