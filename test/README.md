@@ -8,4 +8,4 @@
 Hallo, `wie schaut das aus?` WIe geht das [^so]
 
 
-[^so]: So geht das
+[^so]: So geht das :biking_woman:
