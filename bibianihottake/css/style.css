@@ -1,42 +1,43 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  background: url(https://images.unsplash.com/photo-1585933646706-7b629be871aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80) center center;
-  background-size: cover;
-  background-color: #000;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://images.unsplash.com/photo-1585933646706-7b629be871aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80) center center;
+    background-size: cover;
+    background-color: #000;
 }
 
 .jumbotron {
-  font-family: 'Montserrat', sans-serif;
-  padding: 75px 0;
-  text-align: center;
-  color: #fff;
-  position: relative;
+    font-family: "Montserrat", sans-serif;
+    padding: 75px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
 }
 
 .jumbotron h1 {
-  font-size: 50px;
-  margin-bottom: 0;
+    font-size: 50px;
+    margin-bottom: 0;
 }
 
 .jumbotron p {
-  font-family: serif;
-  font-size: 30px;
-  font-style: italic;
-  margin: 0 0 30px;
+    font-family: serif;
+    font-size: 30px;
+    font-style: italic;
+    margin: 0 0 30px;
 }
 
 button {
-  background-color: Transparent;
-  display: inline-block;
-  border: 2px solid #fff;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
+    background-color: Transparent;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 button:hover {
-  background: #fff;
-  color: #000;
+    background: #fff;
+    color: #000;
 }
