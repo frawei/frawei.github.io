@@ -116,7 +116,7 @@ var phSubject = [
 ];
 
 var phThese = [
-    "ist komplet overrated",
+    "ist komplett overrated",
     "kann nicht abfahren",					
     "ist doch schon viel zu alt",					
     "ist underrated",					
