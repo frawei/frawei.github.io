@@ -1,5 +1,5 @@
 # frawei.github.io  
-## project:  
+## projects:  
 ### 🦎  [GEFÜHLTE FAKTEN: ja oder nein](../fakten)  
 * audio clips: [Gefühlte Fakten! Der Podcast mit Christian Huber und Tarkan Bagci](https://gefuehltefakten.de)  
 * css template: [colorlib.com](https://colorlib.com) [<img src="https://i.creativecommons.org/l/by/3.0/de/80x15.png">](http://creativecommons.org/licenses/by/3.0/de/ "Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz")
