@@ -5,5 +5,7 @@
 - [x] ja
 - [ ] nein
 
-Hallo, `wie schaut das aus?` WIe geht das
+Hallo, `wie schaut das aus?` WIe geht das [^so]
 
+
+[^so]: So geht das
