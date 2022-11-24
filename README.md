@@ -18,4 +18,4 @@
 
 ## contact:  
 🐤  [@ja_franz](https://twitter.com/ja_franz "Twitter: @ja_franz")  
-🐘  [@ja_franz@det.social]([https://twitter.com/ja_franz](https://det.social/@ja_franz) "Mastodon: @ja_franz@det.social")
+🐘  [@ja_franz@det.social]([https://twitter.com/ja_franz](https://det.social/@ja_franz "Mastodon: @ja_franz@det.social")
