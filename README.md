@@ -7,6 +7,8 @@
 * text to speech: [MDN Speech Synthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance)
 
 ### 🚲  [FULL KIT WANKERS: Bibianis Hot Takes](../bibianihottake) 
+<details>
+  <summary>Click me</summary>
 * background image: [Neal E. Johnson - unsplash.com](https://unsplash.com/photos/V0cSTljC92k)
 * favicon: [Jan Kopřiva - Pexels](https://www.pexels.com/de-de/foto/braune-holzburste-3977512/)
 * css template: [colorlib.com](https://colorlib.com) [<img src="https://i.creativecommons.org/l/by/3.0/de/80x15.png">](http://creativecommons.org/licenses/by/3.0/de/ "Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz")
@@ -14,6 +16,7 @@
 * hot takes: [Elia Bibiani](https://twitter.com/EliaBibiani)
 * podcast: [Full-Kit Wankers - Ein Radsport Podcast](https://linktr.ee/fullkitwankers)
 * teams/riders: [FirstCycling](https://firstcycling.com/)
+  </details>
   
 
 ## contact:  
