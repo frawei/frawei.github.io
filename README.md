@@ -9,6 +9,7 @@
 ### 🚲  [FULL KIT WANKERS: Bibianis Hot Takes](../bibianihottake) 
 * image source: [Neal E. Johnson - unsplash.com](https://unsplash.com/photos/V0cSTljC92k)
 * css template: [colorlib.com](https://colorlib.com) [<img src="https://i.creativecommons.org/l/by/3.0/de/80x15.png">](http://creativecommons.org/licenses/by/3.0/de/ "Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz")
+* javascript slot machine: [codingcreativo.it](https://www.codingcreativo.it/en/javascript-slot-machine/)
 * hot takes: [Elia Bibiani](https://twitter.com/EliaBibiani)
 * podcast: [Full-Kit Wankers - Ein Radsport Podcast](https://linktr.ee/fullkitwankers)
 * teams/riders: [FirstCycling](https://firstcycling.com/)
