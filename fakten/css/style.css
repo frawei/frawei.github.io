@@ -10,9 +10,10 @@
     /* background: url("../source/photos/lizard_ruedi_m.png"); */
     background: url("https://www.gefuehltefakten.de/wp-content/uploads/2022/11/cropped-Pressebild_3.jpg");
     background-color: #000;
-    background-position: bottom right;
+    background-size: cover;
+    /* background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; */
     padding: 15px
 }
 
