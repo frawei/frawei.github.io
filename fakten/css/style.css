@@ -7,8 +7,8 @@
     -ms-flex-pack: center;
     justify-content: center;
     font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
-    /* background: url("../source/photos/lizard_ruedi_m.png"); */
-    background: url("https://www.gefuehltefakten.de/wp-content/uploads/2022/11/cropped-Pressebild_3.jpg");
+    background: url("../source/photos/lizard_ruedi_m.png");
+    /* background: url("https://www.gefuehltefakten.de/wp-content/uploads/2022/11/cropped-Pressebild_3.jpg"); */
     background-color: #000;
     background-size: cover;
     /* background-position: bottom right;
