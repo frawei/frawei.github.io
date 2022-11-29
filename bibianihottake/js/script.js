@@ -447,8 +447,8 @@ var phThese = [
     "ist kein bisschen endschnell",
     "ist nur wegen des Equipments schneller",
     "peakt immer zu früh",
-    "sollte so langsam aufs Gravelbike wechseln,
-    "als Kapitän könnte er das hier auch gewinnen,
+    "sollte so langsam aufs Gravelbike wechseln",
+    "als Kapitän könnte er das hier auch gewinnen",
     "Ähm. Wer ist das?"
 
 ];
