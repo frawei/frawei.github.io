@@ -413,7 +413,7 @@ var phThese = [
     "an erster Stelle nur im Besenwagen",
     "gewinnt vielleicht als Gravelprofi nochmal was",
     "die größte Hoffnung seit Simon Geschke im Bergtrikot", 
-    "ist in 1-2 Jahren einer für Isreal", 
+    "ist in 1-2 Jahren einer für Israel", 
     "sollte mal sein Trikot zumachen",
     "den Namen hab ich noch nie gehört", 
     "naja wie auch immer, ist das ein guter Preis für ein Specialized?",  
