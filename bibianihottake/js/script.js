@@ -49,6 +49,7 @@ function numberAttempts(min, max) {
 }
 
 var phSubject = [
+    /*
     "Pizza Hawaii",
     "Alex Baudin",
     "Clement Berthet",
@@ -79,6 +80,8 @@ var phSubject = [
     "Clément Venturini",
     "Lawrence Warbasse",
     "Das komplette AG2R Citroën Team",
+    */
+    /*
     "Jeder Faher von Cofidis",
     "Piet Allegaert",
     "François Bidard",
@@ -110,6 +113,41 @@ var phSubject = [
     "Max Walscheid",
     "Harrison Wood",
     "Axel Zingle"
+    */
+    
+    /* BORA*/
+    "Das komplette Team BORA-hansgrohe",
+    "Giovanni Aleotti",
+"Shane Archbold",
+"Cesare Benedetti",
+"Sam Bennett",
+"Emanuel Buchmann",
+"Nico Denz",
+"Matteo Fabbro",
+"Patrick Gamper",
+"Marco Haller",
+"Sergio Higuita",
+"Jai Hindley",
+"Bob Jungels",
+"Jonas Koch",
+"Patrick Konrad",
+"Lennard Kämna",
+"Florian Lipowitz",
+"Luis-Joe Lührs",
+"Jordi Meeus",
+"Ryan Mullen",
+"Anton Palzer",
+"Nils Politt",
+"Maximilian Schachmann",
+"Ide Schelling",
+"Cian Uijtdebroeks",
+"Danny Van poppel",
+"Aleksandr Vlasov",
+"Matthew Walls",
+"Frederik Wandahl",
+"Ben Zwiehoff",
+    "Die Raublinger Radlbuam"
+
 
 ];
 
