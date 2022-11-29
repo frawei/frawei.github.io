@@ -146,7 +146,7 @@ var phSubject = [
 "Matthew Walls",
 "Frederik Wandahl",
 "Ben Zwiehoff",
-    "Die Raublinger Radlbuam"
+ "Das Team Raublinger Radlbuam"
 
 
 ];
