@@ -116,7 +116,7 @@ var phSubject = [
     */
     
     /* BORA*/
-    "Das komplette Team BORA-hansgrohe",
+    "Jeder Fahrer von BORA-hansgrohe",
     "Giovanni Aleotti",
 "Shane Archbold",
 "Cesare Benedetti",
