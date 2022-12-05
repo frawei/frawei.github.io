@@ -379,12 +379,10 @@ var phSubject = [
 "Hermann Pernsteiner",
 "Marijn Van den Berg",
 "Gustav Basson",
-"Geoffrey Bouchard"
-
-    
-
-
-
+"Geoffrey Bouchard",
+"Paul Voß",
+"Tourfunk",
+"Jeder Full Kit Wanker"
 
 ];
 
