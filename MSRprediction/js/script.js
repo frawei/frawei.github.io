@@ -137,7 +137,7 @@ var phThese = [
     "attacks on the Poggio",
     "pushes 6w/kg (the song) for preparation",
     "pushes 6w/kg (both the song and the power)",
-    "early breakaway with three team mates",
+    "early breakaway with three teammates",
     "attacks on the descent",
     "wins the bunch sprint",
     "wins the sprint from a reduced group",
