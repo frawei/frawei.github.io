@@ -153,6 +153,7 @@ var phThese = [
     "chases the break for 5 hours straight",
     "uses a dropper post",
     "wins in the style of a finisseur",
+    "wins the sprint for 2nd place",
     "attack on the Cipressa, caught before the Poggio"
 
 ];
