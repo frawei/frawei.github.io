@@ -146,7 +146,7 @@ var phThese = [
     "DNF (f*cking SRAM)",
     "monument victory",
     "destroys everyone",
-    "first on the Poggio, 5th on the finish line",
+    "first on the Poggio, last on the finish line",
     "DSQed (drafting)",
     "did a recon of the whole route",
     "60km solo",
