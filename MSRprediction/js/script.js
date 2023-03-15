@@ -151,6 +151,7 @@ var phThese = [
     "did a reckon of the whole route",
     "60km solo",
     "chases the break for 5 hours straight",
+    "uses a dropper post",
     "attack on the Cipressa, caught before the Poggio"
 
 ];
