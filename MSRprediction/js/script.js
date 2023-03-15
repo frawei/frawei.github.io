@@ -148,7 +148,7 @@ var phThese = [
     "destroys everyone",
     "first on the Poggio, 5th on the finish line",
     "DSQed (drafting)",
-    "did a reckon of the whole route",
+    "did a recon of the whole route",
     "60km solo",
     "chases the break for 5 hours straight",
     "uses a dropper post",
