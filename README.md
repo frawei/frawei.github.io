@@ -15,6 +15,12 @@
 * podcast: [Full-Kit Wankers - Ein Radsport Podcast](https://linktr.ee/fullkitwankers)
 * teams/riders: [FirstCycling](https://firstcycling.com/)  
 
+### 🌅  [Milano Sanremo: Predictions](../MSRprediction) 
+* teams/riders: [FirstCycling](https://firstcycling.com/) 
+* race: [milanosanremo.it](https://www.milanosanremo.it/en/)
+* css template: [colorlib.com](https://colorlib.com) [<img src="https://i.creativecommons.org/l/by/3.0/de/80x15.png">](http://creativecommons.org/licenses/by/3.0/de/ "Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz")
+* javascript slot machine: [codingcreativo.it](https://www.codingcreativo.it/en/javascript-slot-machine/)
+
 ## contact:  
 🐤  [@ja_franz](https://twitter.com/ja_franz "Twitter: @ja_franz")  
 🐘  [@ja_franz@det.social](https://det.social/@ja_franz "Mastodon: @ja_franz@det.social")
