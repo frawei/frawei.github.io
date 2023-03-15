@@ -145,6 +145,7 @@ var phThese = [
     "DSQed (sock length)",
     "DNF (f*cking SRAM)",
     "monument victory",
+    "TV attack 100km to go",
     "destroys everyone",
     "first on the Poggio, last on the finish line",
     "DSQed (drafting)",
