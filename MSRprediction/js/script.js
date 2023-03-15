@@ -154,6 +154,9 @@ var phThese = [
     "uses a dropper post",
     "wins in the style of a finisseur",
     "wins the sprint for 2nd place",
+    "DNF (crash on km 5)",
+    "DSQed (sprint deviation)",
+    "DSQed (sticky bottle on Poggio)",
     "attack on the Cipressa, caught before the Poggio"
 
 ];
