@@ -61,7 +61,6 @@ var phSubject = [
 'Mathieu van der Poel',
 'Neilson Powless',
 'Biniam Girmay',
-'Thomas Pidcock',
 'Matej Mohorič',
 'Benoît Cosnefroy',
 'Diego Ulissi',
