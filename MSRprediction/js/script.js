@@ -152,6 +152,7 @@ var phThese = [
     "60km solo",
     "chases the break for 5 hours straight",
     "uses a dropper post",
+    "wins in the style of a finisseur",
     "attack on the Cipressa, caught before the Poggio"
 
 ];
