@@ -10,6 +10,7 @@ body {
 .jumbotron {
     font-family: "Montserrat", sans-serif;
     padding: 75px 0;
+    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-align: center;
     color: #fff;
     position: relative;
@@ -31,8 +32,9 @@ button {
     background-color: Transparent;
     display: inline-block;
     border: 2px solid #fff;
+  background: rgba(256,256,256,0.5);
     padding: 10px 20px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: 0.3s;
 }
