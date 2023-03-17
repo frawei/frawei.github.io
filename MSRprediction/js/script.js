@@ -232,7 +232,9 @@ var phThese = [
     "DNF (crash on km 5)",
     "DSQed (sprint deviation)",
     "DSQed (sticky bottle on Poggio)",
-    "attack on the Cipressa, caught before the Poggio"
+    "takes it as a nice Gran Fondo",
+    "first at the bottom of Poggio, then mislead by signalman",
+    "Cipressa attack, caught before the Poggio"
 
 ];
 
